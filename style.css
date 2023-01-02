@@ -1,0 +1,12 @@
+html, body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+}
+
+canvas {
+  width: 300px;
+  height: 300px;
+  border: 0.5rem solid #000;
+}
