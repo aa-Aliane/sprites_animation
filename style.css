@@ -3,10 +3,38 @@ html, body {
   height: 100%;
   width: 100%;
   place-items: center;
+  font-size: 1.2rem;
 }
 
 canvas {
   width: 300px;
   height: 300px;
   border: 0.5rem solid #000;
+}
+
+button {
+  border: none;
+  background: none;
+  font-size: 1rem;
+}
+
+.btn-group {
+  display: flex;
+  z-index : 10;
+  gap : 1rem;
+}
+
+.btn {
+  border-radius: .2rem;
+  background-color: hsl(208, 100%, 97%);
+  padding : .5em 1em
+}
+
+.btn:hover, .btn:focus {
+  background-color: hsl(208, 100%, 50%);
+}
+
+.btn:focus {
+  box-shadow: 0 0 .5rem .1rem hsl(208, 100%, 50%);
+  color : #fff;
 }
